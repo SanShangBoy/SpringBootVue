@@ -7,6 +7,9 @@
 <script>
 export default {
   name: 'App',
+  mounted:function () {   //自动触发写入的函数
+    this.$router.push('/list')
+  },
 }
 </script>
 
@@ -17,6 +20,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

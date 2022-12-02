@@ -1,5 +1,8 @@
 <template>
   <h1>错误</h1>
+  <router-link to="/login">Login</router-link>&nbsp;&nbsp;
+  <router-link to="/list">List</router-link>&nbsp;&nbsp;
+  <router-link to="/home">Home</router-link>&nbsp;&nbsp;
 </template>
 
 <script>

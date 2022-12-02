@@ -2,12 +2,18 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Login from '/src/components/Login'
 import Home from '/src/components/Home'
 import Error from '/src/components/Error'
+import List from '/src/components/List'
 //路由数组
 const routes = [
     {
         name:"Login",
         path: "/login",
         component:Login
+    },
+    {
+        name:"List",
+        path: "/list",
+        component:List
     },
     {
         name:"Home",
